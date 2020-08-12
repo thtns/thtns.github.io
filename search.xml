@@ -27,6 +27,9 @@ mysql的数据源交给 sharding jdbc 托管，就会走分表规则</code></pre
 <p>基本上只需要配置这么多就够了 </p>
 <blockquote><footer><strong>demo 地址</strong><cite><a href="https://github.com/thtns/sharding-jdbc-demo">github.com/thtns/sharding-jdbc-demo</a></cite></footer></blockquote>
 ]]></content>
+      <categories>
+        <category>分表</category>
+      </categories>
       <tags>
         <tag>spring boot</tag>
         <tag>sharding jdbc</tag>
