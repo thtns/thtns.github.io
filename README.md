@@ -41,11 +41,9 @@ GitHub Pages 仓库是 `thtns/thtns.github.io`，当前项目的 `origin` 已指
 1. 将新版源码提交并推送到 `master` 分支。
 2. 进入仓库 **Settings → Pages**。
 3. 将 **Source** 设置为 **GitHub Actions**。
-4. 推送 `master` 分支，`pages.yml` 会自动构建并发布。
-5. 在 Pages 设置中将自定义域名设为 `thtns.cn`，并启用 HTTPS。
-6. 按 GitHub Pages 设置页面给出的记录配置域名 DNS。
+4. 推送 `master` 分支，`pages.yml` 会自动构建并发布到 `https://thtns.github.io`。
 
-`source/CNAME` 已包含 `thtns.cn`。启用独立域名后，`thtns.github.io` 通常会跳转到 `thtns.cn`，站内链接也以独立域名作为规范地址。
+GitHub Pages 不绑定 `thtns.cn`，因此 GitHub Pages 和独立服务器可以同时提供服务。GitHub 构建使用 `_config.github.yml`，规范地址为 `https://thtns.github.io`。
 
 ## 服务器部署
 
@@ -75,7 +73,7 @@ GitHub Pages 仓库是 `thtns/thtns.github.io`，当前项目的 `origin` 已指
 ln -sfn /var/www/thtns-blog/releases/<旧提交SHA> /var/www/thtns-blog/current
 ```
 
-独立域名同一时间只能指向一组实际入口。使用 GitHub Pages 时把 DNS 指向 GitHub；切换到自己的服务器时，把 DNS 改为服务器地址，并在 GitHub Pages 中移除自定义域名以避免冲突。
+`thtns.cn` 作为服务器版本的独立域名，服务器构建使用 `_config.server.yml`。当前公网 DNS 已指向服务器；完成 Nginx 配置和服务器工作流 Secrets 后即可发布。
 
 ## 配置文件
 

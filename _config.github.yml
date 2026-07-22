@@ -1,4 +1,3 @@
-# GitHub Pages user site: https://thtns.github.io
-# The custom domain is canonical and source/CNAME makes GitHub Pages serve it.
-url: https://thtns.cn
+# GitHub Pages user site. The independent domain is served by the Linux server.
+url: https://thtns.github.io
 root: /
