@@ -67,8 +67,8 @@ footer:
   powered: true
   beian:
     # Enable only after replacing the empty values with real registration data.
-    enable: false
-    icp: # 例如：京ICP备12345678号-1
+    enable: true
+    icp: 浙ICP备16046325号-1 # 例如：京ICP备12345678号-1
     gongan_id: # 公安备案查询链接中的纯数字 code
     gongan_num: # 例如：京公网安备 11000002000001号
     gongan_icon_url: # 备案图标，例如：/images/beian.png

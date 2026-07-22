@@ -85,7 +85,7 @@ ln -sfn /var/www/thtns-blog/releases/<旧提交SHA> /var/www/thtns-blog/current
 - `_config.server.yml`：服务器构建覆盖项
 - `source/_data/styles.styl`：少量自定义样式
 
-ICP 与公安备案入口位于 `_config.next.yml` 的 `footer.beian`。拿到真实备案号后再启用，未备案时不要填写占位号码。
+ICP 与公安备案入口位于 `_config.next.yml` 的 `footer.beian`。ICP 已配置；公安备案需补充真实的 `gongan_id`、`gongan_num` 和备案图标后才会显示。
 
 ## 发布检查
 
