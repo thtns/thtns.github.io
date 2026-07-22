@@ -165,7 +165,7 @@ local_search:
   enable: true
   top_n_per_article: 3
   unescape: true
-  preload: false
+  preload: true
 
 busuanzi_count:
   enable: true
