@@ -66,7 +66,12 @@ footer:
   copyright: thtns
   powered: true
   beian:
+    # Enable only after replacing the empty values with real registration data.
     enable: false
+    icp: # 例如：京ICP备12345678号-1
+    gongan_id: # 公安备案查询链接中的纯数字 code
+    gongan_num: # 例如：京公网安备 11000002000001号
+    gongan_icon_url: # 备案图标，例如：/images/beian.png
 
 excerpt_description: true
 read_more_btn: true
@@ -78,6 +83,18 @@ post_meta:
     enable: true
     another_day: true
   categories: true
+
+symbols_count_time:
+  separated_meta: true
+  item_text_total: true
+
+reward_settings:
+  enable: true
+  animation: false
+
+reward:
+  wechatpay: /images/wechatpay.jpg
+  alipay: /images/alipay.jpg
 
 post_navigation: left
 
@@ -124,6 +141,13 @@ index_with_subtitle: true
 
 mediumzoom: true
 lazyload: true
+pangu: true
+
+mermaid:
+  enable: true
+  theme:
+    light: neutral
+    dark: dark
 
 motion:
   enable: true
@@ -142,6 +166,15 @@ local_search:
   top_n_per_article: 3
   unescape: true
   preload: false
+
+busuanzi_count:
+  enable: true
+  total_visitors: true
+  total_visitors_icon: fa fa-user
+  total_views: true
+  total_views_icon: fa fa-eye
+  post_views: true
+  post_views_icon: far fa-eye
 
 vendors:
   internal: local

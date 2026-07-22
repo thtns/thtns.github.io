@@ -22,4 +22,11 @@ tags:
 - macOS 软件、自动化和效率工具；
 - NAS、家庭网络、数据管理与自托管服务。
 
+```mermaid
+graph LR
+  Blog[thtns's blog] --> Java[Java 与工程实践]
+  Blog --> macOS[macOS 与效率工具]
+  Blog --> NAS[NAS 与数字生活]
+```
+
 比起零散的收藏，我更希望每篇文章都能讲清楚问题背景、选择过程和最终方案。也欢迎通过 [GitHub](https://github.com/thtns) 找到我。

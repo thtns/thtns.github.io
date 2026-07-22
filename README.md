@@ -7,6 +7,8 @@
 - Node.js 24 LTS
 - Hexo 8
 - NexT 8（Gemini 布局）
+- 字数统计、阅读时长、中文混排和 Mermaid 图表
+- 不蒜子访问统计与微信/支付宝赞赏
 - GitHub Actions + GitHub Pages
 - Linux + Nginx（可选服务器部署）
 
@@ -82,6 +84,8 @@ ln -sfn /var/www/thtns-blog/releases/<旧提交SHA> /var/www/thtns-blog/current
 - `_config.github.yml`：GitHub Pages 构建覆盖项
 - `_config.server.yml`：服务器构建覆盖项
 - `source/_data/styles.styl`：少量自定义样式
+
+ICP 与公安备案入口位于 `_config.next.yml` 的 `footer.beian`。拿到真实备案号后再启用，未备案时不要填写占位号码。
 
 ## 发布检查
 

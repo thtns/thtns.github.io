@@ -49,6 +49,8 @@ highlight:
   tab_replace: ''
   wrap: true
   hljs: false
+  exclude_languages:
+    - mermaid
 
 # Home page
 index_generator:
@@ -91,6 +93,15 @@ search:
   field: post
   content: true
   format: html
+
+# Word count and estimated reading time.
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true
+  exclude_codeblock: true
+  wpm: 275
 
 # Deployment is handled by GitHub Actions.
 deploy:
