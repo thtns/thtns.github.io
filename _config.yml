@@ -1,0 +1,97 @@
+# Site
+title: "thtns's blog"
+subtitle: 记录代码、效率与数字生活
+description: Java 毕业生，macOS 重度用户，NAS 与家庭数字生活爱好者。
+keywords:
+  - Java
+  - macOS
+  - NAS
+  - 开发
+  - 数字生活
+author: thtns
+language: zh-CN
+timezone: Asia/Shanghai
+
+# URL
+url: https://thtns.cn
+root: /
+permalink: posts/:year/:month/:day/:title/
+pretty_urls:
+  trailing_index: false
+  trailing_html: false
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+
+# Writing
+new_post_name: :year-:month-:day-:title.md
+default_layout: post
+titlecase: false
+external_link:
+  enable: true
+  field: site
+  exclude: ''
+filename_case: 1
+render_drafts: false
+post_asset_folder: true
+relative_link: false
+future: true
+syntax_highlighter: highlight.js
+highlight:
+  line_number: true
+  auto_detect: false
+  tab_replace: ''
+  wrap: true
+  hljs: false
+
+# Home page
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+
+# Category & tag
+default_category: 随笔
+category_map:
+tag_map:
+
+# Metadata
+meta_generator: true
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+updated_option: date
+per_page: 10
+pagination_dir: page
+
+# Theme
+theme: next
+
+# Feed, sitemap and local search
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content: true
+  content_limit: 280
+  content_limit_delim: ' '
+  order_by: -date
+
+sitemap:
+  path: sitemap.xml
+
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
+
+# Deployment is handled by GitHub Actions.
+deploy:
+  type: ''

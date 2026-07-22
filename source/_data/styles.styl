@@ -1,0 +1,47 @@
+// A restrained teal accent and system-first typography for thtns's blog.
+:root {
+  --thtns-accent: #0f766e;
+  --thtns-accent-bright: #14b8a6;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-feature-settings: "kern";
+}
+
+::selection {
+  background: rgba(20, 184, 166, .28);
+}
+
+.site-title {
+  font-weight: 700;
+  letter-spacing: -.02em;
+}
+
+.site-subtitle {
+  letter-spacing: .08em;
+}
+
+.post-body {
+  line-height: 1.85;
+}
+
+.post-body a,
+.post-title-link:hover,
+.menu-item-active a {
+  color: var(--thtns-accent);
+}
+
+.post-button .btn {
+  border-color: var(--thtns-accent);
+  color: var(--thtns-accent);
+}
+
+.post-button .btn:hover {
+  background: var(--thtns-accent);
+  color: #fff;
+}
+
+code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+}
